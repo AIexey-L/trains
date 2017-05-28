@@ -1,4 +1,3 @@
 class Route < ApplicationRecord
-  validates :first_station, presence: true
-  validates :last_station, presence: true
+  validates :title, presence: true
 end
